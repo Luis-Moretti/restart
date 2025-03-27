@@ -1,6 +1,7 @@
 import psutil, time, os
 
-while(True):
+while (True):
+    print('123')
     for pid in psutil.pids():
         p = psutil.Process(pid)
         if p.name().count('python') > 0:
