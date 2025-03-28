@@ -1,5 +1,8 @@
 import psutil, time, os
 
+def stop():
+    os._exit(1)
+
 while (True):
     try:
         for pid in psutil.pids():
