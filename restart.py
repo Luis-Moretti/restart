@@ -8,6 +8,6 @@ while (True):
                 print("Restarting")
                 os.chdir('/data/data/com.termux/files/home/assecc')
                 os.system('python main.py')
-        time.sleep(5)
+        time.sleep(15)
     except:
         pass
