@@ -11,6 +11,6 @@ while (True):
                 print("Restart")
                 os.chdir('/data/data/com.termux/files/home/assecc')
                 os.system('python main.py')
-            time.sleep(10)
+        time.sleep(5)
     except:
         pass
